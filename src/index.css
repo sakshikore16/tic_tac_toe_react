@@ -1,0 +1,27 @@
+/* index.css */
+
+.square {
+  background: #fff;
+  border: 2px solid #007bff;
+  float: left;
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 60px;
+  height: 60px;
+  width: 60px;
+  margin: 5px;
+  text-align: center;
+  color: #007bff;
+  transition: background 0.3s ease;
+}
+
+.square:hover {
+  background: #e6f7ff;
+  cursor: pointer;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
